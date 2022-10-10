@@ -19,11 +19,20 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+const filterDogOwers=items.find((item)=>{
+  return item.hasDog===true
+})
+console.log(filterDogOwers)
 
-for (if hasdog=true)
-const newusers=filter.users(hasDog)
+const filterAdults=items.filter((item)=>{
+  return item.age>=18
+})
+console.log(filterAdults)
 
-// users.map(hasdog);
+// for (if hasdog=true)
+// const newusers=filter.users(hasDog)
+
+// // users.map(hasdog);
 
 // function hasdog(item) {
 //   return [item.hasDog];

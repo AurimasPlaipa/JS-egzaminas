@@ -9,6 +9,7 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
 document.getElementById('search').addEventListener('input',function(e){
+// document.getElementById('submit-btn').addEventListener('click',function(e){// bandžiau padaryti mygtuko paspaudimu, bet ne iki galo
     let kg= e.target.value;
     let input = document.getElementById('search');
     let data = input.value;

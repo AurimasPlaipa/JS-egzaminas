@@ -19,5 +19,13 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
-console.log(users.reduce(person=>person.age))
-console.log(users.reduce(person => person.name))
+
+const getUserAverageAge=items.map((item)=>{
+  return item.age.number
+})
+console.log(getUserAverageAge)
+
+const getUsersNames=items.filter((item)=>{
+  return item.name
+})
+console.log(getUsersNames)

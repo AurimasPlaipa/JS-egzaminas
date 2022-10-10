@@ -11,16 +11,22 @@ Pastaba: Sukurta kortelė, kurioje yra pateikiama vartotojo informacija, turi
 turėti bent minimalų stilių ir būti responsive;
 -------------------------------------------------------------------------- */
 
-const ENDPOINT = fetch ('https://api.github.com/users')       
-  .then(response => response.json())
-  .then(document.createElement);
-   main.append(productCard);
+const ENDPOINT = fetch ('https://api.github.com/users')
+if (response.ok) {
+  const data = response.json();
+  renderUserCards(data.results);
+  return (results)
+}
 
-  // function addProductsToList (products) {
-  //     products.forEach((product) => {
+
+
+
+// antras variantas
+
+// const ENDPOINT = fetch ('https://api.github.com/users')
+  // .then(response => response.json())
+  // .then(document.createElement);
+  //  main.append(productCards);
+  // return(productCards)
+
   
-  //         const ENDPOINT = document.querySelector('.output');
-          
-  //         mainContainer.append(productCard);
-          
-          

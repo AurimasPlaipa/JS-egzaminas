@@ -18,4 +18,4 @@ function calculate(a, b, operator) {
 		return a * b;
 	}
   }
-  console.log(calculate(1, 2, 'sub'));
+  console.log(calculate(5, 10, 'sub'));
